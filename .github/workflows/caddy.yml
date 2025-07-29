@@ -83,7 +83,7 @@ jobs:
         ~/go/bin/xcaddy build \
           --with github.com/caddyserver/jsonc-adapter \
           --with github.com/mholt/caddy-l4 \
-          --with github.com/caddy-dns/duckdns \
+          --with github.com/caddy-dns/cloudflare \
           --with github.com/mholt/caddy-events-exec \
           --with github.com/WeidiDeng/caddy-cloudflare-ip \
           --with github.com/caddyserver/forwardproxy=github.com/imgk/forwardproxy@udpinhttp \
